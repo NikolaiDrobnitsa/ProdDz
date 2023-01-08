@@ -65,10 +65,10 @@
 
                 $data = 'INSERT INTO `product`(`name`, `price`, `amount`) VALUES ("'.$name.'" , "'.$price.'", "'.$amount.'")';
                 if($conn->query($data)){
-                    echo "<p>Data added!</p>";
+                    echo "<p>Data added!!!</p>";
                 }
                 else{
-                    echo "<p>Data not added!</p>";
+                    echo "<p>Data not added!!!</p>";
                 }
 
 
