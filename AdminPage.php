@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
     <title>Apple</title>
     <link href="style.css" rel="stylesheet">
@@ -21,12 +21,15 @@
             <div class="row justify-content-md-center mb-3">
 
                 <div class="col col-lg">
-                    <input type="text" class="form-control" id="SearchProd" name="add_name" placeholder="Name" value="">
+                    <label for="addProdName" >Name</label>
+                    <input type="text" class="form-control" id="addProdName" name="add_name" placeholder="Name" value="">
                 </div>
                 <div class="col col-lg">
-                    <input type="text" class="form-control" id="SearchProd" name="add_price" placeholder="Price" value="">
+                    <label for="addProdPrice">Price</label>
+                    <input type="text" class="form-control" id="addProdPrice" name="add_price" placeholder="Price" value="" >
                 </div>
                 <div class="col col-lg">
+                    <label for="SearchProd" >Amount</label>
                     <input type="text" class="form-control" id="SearchProd" name="add_amount" placeholder="Amount" value="">
                 </div>
                 <div class="col-md-auto">
@@ -65,10 +68,10 @@
 
                 $data = 'INSERT INTO `product`(`name`, `price`, `amount`) VALUES ("'.$name.'" , "'.$price.'", "'.$amount.'")';
                 if($conn->query($data)){
-                    echo "<p>Data added!!!</p>";
+                    echo "<p>Data added!!!!!</p>";
                 }
                 else{
-                    echo "<p>Data not added!!!</p>";
+                    echo "<p>Data not added!!!!</p>";
                 }
 
 
