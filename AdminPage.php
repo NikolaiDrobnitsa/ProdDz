@@ -104,7 +104,7 @@
             }
             echo "</tbody>";
             echo "</table>";
-            //clear
+
             $results->free();
 
         }
