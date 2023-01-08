@@ -12,7 +12,7 @@
         <div class="container text-center mt-2 ">
             <div class="text-start">
 
-                <h2>Admin panel</h2>
+                <h2>Admin panels</h2>
 
                 <h5 >Add Product</h5>
 
